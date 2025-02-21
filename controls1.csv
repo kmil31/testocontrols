@@ -1,0 +1,462 @@
+﻿Control_ID,Control_Description
+CTRL-0000001605,"Rules for the acceptable use and procedures for handling information and other associated assets shall be identified, documented and implemented."
+CTRL-0000001603,"Logs that record activities, exceptions, faults and other relevant events shall be produced, stored, protected and analysed."
+CTRL-0000001601,"Where cryptography is used to protect stored account data, key management processes and procedures covering all aspects of the key lifecycle shall be defined and implemented."
+CTRL-0000001599,"IT security hardening specifications shall be established, documented, approved by appointed CS architectural authorities. implemented, monitored and reviewed."
+CTRL-0000001598,"No BYOC connectivity shall be allowed for holders of a Company Laptops, unless an emergency case or a formal exceptional use-case has been pre-approved by the appointed CS architectural authorities."
+CTRL-0000001597,MFA shall be used to access all External-facing IT System Assets.
+CTRL-0000001596,"IT System Assets shall not be configured as External-facing by default, unless justified for business reasons, and approved by the appointed CS architectural authorities."
+CTRL-0000001595,"[IIoT] The control system shall provide the capability to limit the number of concurrent sessions per interface for any given user (human, software process or device) to a configurable number of sessions."
+CTRL-0000001594,[IIoT] The control system shall support supervisor manual override of the current human user authorizations for a configurable time or event sequence.
+CTRL-0000001593,[IIoT] The control system shall provide the capability to obscure feedback of authentication information during the authentication process.
+CTRL-0000001592,"[IIoT] The control system shall provide the capability to support verification of the intended operation of security functions and report when anomalies are discovered during FAT, SAT and scheduled maintenance. These security functions shall include all those necessary to support the security requirements specified in this standard."
+CTRL-0000001591,[IIoT] The control system shall provide the capability to protect the integrity of sessions. The control system shall reject any usage of invalid session IDs.
+CTRL-0000001590,[IIoT] The control system shall provide the capability to synchronize internal system clocks at a configurable frequency.
+CTRL-0000001589,[IIoT] The control system shall provide the capability to display a system use notification message before authenticating. The system use notification message shall be configurable by authorized personnel.
+CTRL-0000001588,[IIoT] The control system shall identify and handle error conditions in a manner such that effective remediation can occur. This shall be done in a manner which does not provide information that could be exploited by adversaries to attack the IACS unless revealing this information is necessary for the timely troubleshooting of problems.
+CTRL-0000001587,"[IIoT] The control system shall provide the capability to enforce usage restrictions for mobile code technologies based on the potential to cause damage to the control system that include:
+a) preventing the execution of mobile code;
+b) requiring proper authentication and authorization for origin of the code;
+c) restricting mobile code transfer to/from the control system; and
+d) monitoring the use of mobile code."
+CTRL-0000001586,[IIoT] The control system shall provide the capability to verify integrity of the mobile code before allowing code execution.
+CTRL-0000001520,A structured assurance scheme shall be implemented at planned intervals to provide information on whether the information security management system conforms to the requirements of the control framework. A list of required documents and reports shall be developed to establish an audit trail and provide evidence of conformance.
+CTRL-0000001519,There shall be a formal and communicated disciplinary process in place to take action against employees who have committed an information security breach.
+CTRL-0000001518,"Information security responsibilities and duties that remain valid after termination or change of employment shall be defined, communicated to the employee or contractor and enforced."
+CTRL-0000001517,"Data shall be securely disposed of, in accordance with any defined retention policy & disposal procedures, where applicable."
+CTRL-0000001516,Mobile Application Assets rated as having SEVERE or MAJOR business impact in terms of Confidentiality shall have appropriate Mobile Application Management (MAM) features enforced and enabled.
+CTRL-0000001515,"IT software packages shall be version-controlled and archived to include the necessary files and supporting data for each software release including, but not limited to software bill of materials (SBOM), secure configuration scripts, installation files, executables, integrity verification and provenance information."
+CTRL-0000001514,IT user identities shall be verified before modifying any authentication factor.
+CTRL-0000001513,"APIs shall be configured for secure access, secure API shielding, secure data transfer, and security event logging & monitoring."
+CTRL-0000001512,Interactive logons shall be disabled for IT service accounts.
+CTRL-0000001511,Cyber Security Event Logging processes should be periodically tested to ensure that events of interest are being detected in line with expectations.
+CTRL-0000001510,"Logging and monitoring should be enabled for IaaS, PaaS and SaaS System Assets in the Cloud.  Integration with the Company SIEM solution is preferred for IaaS-hosted System Assets rated as having SEVERE business impact in terms of Confidentiality, Integrity and/or Availability, where possible and practical."
+CTRL-0000001509,"An understanding of normally-expected data flows and operations should be developed and refined over time, in order to facilitate the identification & alerting of anomalous events."
+CTRL-0000001508,Backup media should be encrypted (for data classified as Secret or Confidential) and hashed (for data rated as Business Critical for Integrity).
+CTRL-0000001507,All Company data on removable media and devices should be encrypted by default.
+CTRL-0000001506,"System Assets decommissioning should be planned appropriately, to ensure proper management of data and user access per Records Management Standards & Guidelines, and data recoverability requirements."
+CTRL-0000001505,Host-based Firewalls and Host-based Intrusion Prevention Systems (HIPS) should be implemented to avoid data breaches.
+CTRL-0000001504,"All testing in should be carried out off-line, or in a Test environment separated from the Production system, unless specifically approved by the relevant authority (e.g. System Assets Owner, OT Business Discipline Technical Authority etc.)."
+CTRL-0000001503,Strong Encryption should be used for all transfers of Personal Data  between System Assets.
+CTRL-0000001502,"The Company information/data classified as Confidential, or handled by System Assets rated as having MAJOR business impact in terms of Confidentiality and/or SEVERE business impact in terms of Integrity, should be protected by Strong Encryption whilst in transit."
+CTRL-0000001501,"System Assets processing Personal Data should implement encryption of data-at-rest, however this is optional."
+CTRL-0000001500,"The Company information/data classified as Confidential, or handled by System Assets rated as having MAJOR business impact with respect to Confidentiality and/or Integrity, should be protected by Strong Encryption or hosted in a Secure Cell, whilst at rest on IT or OT systems."
+CTRL-0000001499,"MFA should be used for access to IT System Assets assessed as having a CS BIA rating of MODERATE, MINOR, or INSIGNIFICANT impact."
+CTRL-0000001498,"Every user ID shall have a nominated sponsor, for attestation/re-attestation purposes.  User ID creation requests shall be attested by the sponsor, and re-attested periodically, commensurate with the type of user (e.g. one month prior to end-of-contract)."
+CTRL-0000001497,"For System Assets hosted in the Cloud, network segregation and credential/role segregation (from other applications & services hosted by the Cloud Service Provider) should be in place."
+CTRL-0000001496,"Room Signage should be visibly displayed at places and rooms where Physical Assets are placed (e.g. equipment room, data center, tape store etc.)."
+CTRL-0000001495,"Inventories of all the Company-managed Logical System Assets shall be maintained, and periodically reviewed for accuracy & completeness."
+CTRL-0000001494,"Inventories of all Physical Assets shall be maintained, and periodically reviewed for accuracy & completeness."
+CTRL-0000001493,All Physical Assets shall be labelled and tagged so that they can be uniquely identified and tracked.
+CTRL-0000001492,"IP address ranges shall be managed by the Company network department via a documented request, allocation, and approval process. All new subnet IP ranges for all entities connected to the Company network shall require the Company network department approval, prior to allocation."
+CTRL-0000001491,An inventory of interfaces through which the Company data flows shall be maintained & kept up-to-date.
+CTRL-0000001490,Ownership of all the Company domain names shall be vested in the Company’s strategic communications function.
+CTRL-0000001489,"Inventories of all Third-Party-managed Logical System Assets used by  the Company shall be maintained, and periodically reviewed for accuracy & completeness."
+CTRL-0000001488,The Company shall appoint an internal authority for approval of requests for new domain names for internal websites.
+CTRL-0000001487,An up-to-date inventory shall be maintained of all of the Company registered domain names and IP address ranges.
+CTRL-0000001486,The Company’s strategic communications function shall have the sole authority to approve requests for new domain names for external websites.
+CTRL-0000001485,"Data ownership, management, processing, and handling roles & responsibilities shall be identified, defined and communicated (e.g. via a published RACI model)."
+CTRL-0000001484,All System Assets shall be subject to Asset Prioritization (as per the Cyber Risk Management Guidelines & Procedures).
+CTRL-0000001483,Cyber security roles and responsibilities shall be defined for Employees and Contractors.
+CTRL-0000001482,"System assets shall be categorised based on the impact ratings in the CS BIA, for impact of loss of Confidentiality, integrity and/or availability.  
+There are five impact levels: Severe, Major, Moderate, Minor, Insignificant."
+CTRL-0000001481,"The Company’s position and relevance with respect to national critical infrastructure, and supply in the oil & gas sector shall be assessed, in order to understand external stakeholder requirements and applicable regulations."
+CTRL-0000001480,"The Company’s role in the supply chain shall be analysed, in order to help define responsibilities for cyber security throughout the supply chain."
+CTRL-0000001479,The Company’s mission and business objectives shall be assessed and fed into the development of the Cyber Security Strategy.
+CTRL-0000001478,"The Company data classification scheme shall be used to provide standard confidentiality classifications for information assets (e.g. as part of the CS BIA process). The scheme provides four levels of data classification:
+
+- Secret (Rahsia), Confidential (Sulit), Internal Use (Untuk Dalaman), and Open (Terbuka)."
+CTRL-0000001477,"The Cyber Security Strategy shall be defined, periodically reviewed, and maintained, in order to support (and, where possible, link to) the Company’s mission and business objectives."
+CTRL-0000001476,"The Cyber Risk Management Guidelines & Procedures shall describe the scope, approach/method for assessing requirements for System Assets redundancy & resilience, and Disaster Recovery."
+CTRL-0000001475,The Company’s business continuity strategy and plans should reflect requirements for DR Plans for System Assets rated as having SEVERE or MAJOR business impact with respect to Availability.
+CTRL-0000001474,Results from a formal CS BIA shall be used to determine the need for DR Plans and High Availability design (in support of the Company’s business continuity methodology and plans).
+CTRL-0000001472,"The Company's ISMS components shall be reviewed by management at planned intervals to ensure their continuing suitability, adequacy and effectiveness."
+CTRL-0000001471,"The Company shall establish, implement, maintain and continually improve a complete set of Information Security Management System (ISMS)  components in accordance with the requirements of the PETRONAS Cyber Security Control Standards."
+CTRL-0000001470,"The Company’s governing Cyber Security policies, frameworks, standards, guidelines, procedures and checklists shall be defined, reviewed periodically, and communicated to all relevant stakeholders."
+CTRL-0000001469,"Cyber Security function shall be established with the overall responsibility for the organization’s Cyber Security Policy, Enterprise Control Framework and standard which coordinates cyber security activities across the organization.  The function shall be adequately-funded and staffed with appropriately-skilled resources."
+CTRL-0000001468,Head of the cyber security function shall have accountability to assess and ensure that the cyber security risk is managed across the Company.
+CTRL-0000001467,The Company’s management and board shall be responsible for providing clear leadership and commitment by providing the resources required to meet the cyber security policy and objective.
+CTRL-0000001466,"Enterprise Architecture-approved target operating environments and reference models shall satisfy the applicable Cyber Security architectural requirements, and PETRONAS Cyber Security Control Standards."
+CTRL-0000001465,"All the Company applicable cyber security statutory, regulatory, contractual, and compliance requirements shall be identified, incorporated in cyber security guidelines, frameworks & procedures, and adhered to."
+CTRL-0000001464,"Contact information for applicable regulation authorities, national and local law enforcement, and other legal jurisdictional authorities shall be maintained and regularly verified."
+CTRL-0000001463,The function shall monitor security performance to ensure the ongoing effectiveness and efficiency of cyber security.
+CTRL-0000001462,Appropriate contacts with special interest groups or other specialist security forums and professional associations shall be maintained.
+CTRL-0000001461,"Any identified findings from risk assessments, compliance assessments, or audits shall be addressed, as per the Cyber Security Risk Management Guidelines & Procedures."
+CTRL-0000001460,"The Company shall subscribe to threat intelligence sources and information-sharing forums, in order to obtain up-to-date information regarding the threat landscape."
+CTRL-0000001459,"All System Assets shall be subject to the Cyber Security Risk Management Guidelines & Procedures, in order to ensure an equivalent level of security across assets."
+CTRL-0000001458,"Threat intelligence procedure shall be defined that covers identification, gathering, and collecting of information on cyber security threats."
+CTRL-0000001457,"Information about security vulnerabilities of network & system hardware and software shall be obtained regularly from verified sources, including patch information."
+CTRL-0000001456,"Internal security alerts, advisories, and directives shall be generated when appropriate, based on Threat Intelligence."
+CTRL-0000001455,"Threat hunting activities for identifying emerging threats shall be defined. The Company’s Threat Hunting Procedure shall cover hypothesis, research, investigation, detection and analysis, informing, reporting and enrichment."
+CTRL-0000001454,"A threat awareness programme shall be implemented with a cross-organizational information-sharing capability in the Company, with a central information repository maintained for practices, techniques, and technology."
+CTRL-0000001453,"The Cyber Risk Management Guidelines & Procedures shall describe the scope, approach/method for assessing risk on the basis of impact, threat, vulnerability, and likelihood."
+CTRL-0000001452,"Automated mechanisms (e.g. End-point Tools, Network Monitoring and Forensics Tools, Incident Workflow Management Tools) shall be employed to effectively execute threat hunting, prompt security alerts and provide advisory information."
+CTRL-0000001451,"The Cyber Risk Management Guidelines & Procedures shall describe the scope, approach/method responding to cyber risk, and prioritizing risk treatment."
+CTRL-0000001450,Cyber security risks shall be treated in accordance with the Cyber Risk Management Methodology.
+CTRL-0000001449,The Cyber Risk Management Guidelines & Procedures shall be aligned with the Enterprise Risk Management Framework and implemented consistently across the Company.
+CTRL-0000001448,"The Cyber Risk Management Guidelines & Procedures shall describe the scope, approach/method for business impact, threat, vulnerability, and likelihood assessment, evaluation."
+CTRL-0000001447,"The Cyber Risk Management Guidelines & Procedures shall describe the scope, approach/method for assessing Business Criticality."
+CTRL-0000001446,"A management-approved, adequately-resourced and funded, rolling programme of work shall be defined and deployed to address Enterprise Cyber Security risks and improve the Company's cyber risk posture. The programme shall incorporate financial planning cycles, periodic management reporting and reviews for effectiveness."
+CTRL-0000001445,A supply chain risk management process shall be defined covering the cyber security risk aspects of the use of Suppliers for outsourced & subscription-based IT services.
+CTRL-0000001444,"Cyber Security Risk Management Guidelines & Procedures shall be developed, approved, deployed, and maintained, to enable cyber risks to be managed consistently across the Company."
+CTRL-0000001443,"Cyber Risk Appetite shall be defined in alignment with the Company’s enterprise risk model, and reviewed annually."
+CTRL-0000001439,"Cyber security risk assessment results shall be formally documented, reported, and reassessed at appropriate intervals."
+CTRL-0000001437,All physical access events shall be logged (preferably automatically).
+CTRL-0000001436,"Risks shall be assessed for use of Suppliers of IT/OT systems, subsystems, components and/or services, using the Company’s defined third party Cyber Security risk management process."
+CTRL-0000001435,"Physical access revocation shall be initiated upon change in location, role or access requirement."
+CTRL-0000001434,"Physical access logs shall be subject to backup & restore controls, as per this Standard."
+CTRL-0000001433,A centralised video surveillance solution shall be implemented at entry/exit points
+CTRL-0000001432,"Physical access management rules shall be defined and published for access to the Company's premises for Employees, Contractors and Visitors."
+CTRL-0000001431,All users of the Company’s facilities shall always wear visible identification badge in the facilities areas and shall remove the same outside the premises.
+CTRL-0000001430,"Physical access rights shall be reviewed periodically (at least quarterly), updated and revoked as required."
+CTRL-0000001429,Visitor access to the Company’s premises shall be strictly managed.
+CTRL-0000001428,"For card entry systems, physical access shall be revoked immediately upon reporting of card lost incident."
+CTRL-0000001427,MFA shall be performed for remote access to Company-managed IT networks from non-Company-managed networks.
+CTRL-0000001426,"Delivery and loading areas shall have restricted access, and shall be segregated from other areas of the premises."
+CTRL-0000001425,"A network segmentation architecture shall be established, documented and implemented for the Company IT/OT networks."
+CTRL-0000001424,"DMZ's shall be securely configured between the Company internal IT network and the Internet, in order to provide a safe environment for internet-accessible System Assets."
+CTRL-0000001423,"All the traffic from Untrusted Networks shall be denied by default. Only documented, justified and necessary traffic shall be permitted. All the protocols and ports permitted to ingress or egress the Company network shall be approved by the Network Security team."
+CTRL-0000001422,The Company IT network boundaries & perimeters shall be securely managed in order to effectively protect trusted networks from untrusted networks.
+CTRL-0000001421,"Wireless connectivity in the Company IT networks shall be securely designed and implemented, in order to ensure proper authentication, segregation, and data security."
+CTRL-0000001420,"Secure-by-design concept shall be applied to the design, management, and operation of the Company enterprise IT network, including documented network management guidelines & procedures."
+CTRL-0000001418,"Secure network routing controls shall be established at the boundaries between the Company IT network and external networks, based on source and destination address checking mechanisms."
+CTRL-0000001417,MFA shall be implemented for access to the Company IT System Assets from BYOC and BYOD devices.
+CTRL-0000001416,Passwords shall be kept secret and are not to be shared.
+CTRL-0000001415,"All users & devices shall be subject to the Company mandatory registration and authentication requirements, for access to all Company System Assets, using architectural components approved by the appointed CS architectural authorities."
+CTRL-0000001414,"Where authentication factors such as physical or logical security tokens, smart cards, or certificates are used: 
+- Factors shall be assigned to an individual user and not shared among multiple users.
+- Physical and/or logical controls shall ensure that only the intended user can use that factor to gain access."
+CTRL-0000001413,The Cyber Security Awareness & Training shall cover the additional responsibilities of higher-privileged users.
+CTRL-0000001412,The Cyber Security Awareness & Training Programme shall be validated periodically to ensure effectiveness and sufficiency.
+CTRL-0000001411,"Any material changes to the cyber security requirements, laws, regulations and control standards shall be communicated to the Employees and other relevant stakeholders, either via the general programme, or via targeted communications."
+CTRL-0000001410,A Cyber Security Awareness & Training Programme shall be designed and applied for all Company Employees and Contractors.
+CTRL-0000001409,"The Company’s governing Cyber Security policies, frameworks, standards, guidelines, procedures and checklists shall be available to all Employees & Contractors via formal communication channels and media."
+CTRL-0000001408,"Cryptographic architecture shall be incorporated into the Company ’s security architecture. The term ""Strong Encryption"" shall only be assigned to cryptographic methods & technologies that have been validated and selected as part of the architecture by the appointed CS architectural authorities."
+CTRL-0000001407,"Incident response training shall be provided to the Cyber Security Incident Management team and to individuals involved in the chain of IRP, in order to help achieve quality and consistency in the management of incidents."
+CTRL-0000001406,Role-based skill training shall be provided to Employees & Contractors who have roles & responsibilities requiring the performing Cyber Security related activities.
+CTRL-0000001405,"All identified Physical Assets to be disposed of (e.g. end-of-life End-points, Mobile Devices, storage media etc.) that may contain the Company's data, shall be sanitised and securely disposed by authorised personnel."
+CTRL-0000001404,"A centralised key management system shall be implemented for IT cryptographic solutions, and shall be accessible to authorised personnel only."
+CTRL-0000001403,The Company-owned Physical Assets shall not be taken off-site without prior authorisation.
+CTRL-0000001402,"All Employees and external party users shall return all Company Physical Assets in their possession upon termination of their employment, contract or agreement."
+CTRL-0000001401,Personnel handling of the Company information shall adhere to clear desk and clear screen practices to prevent unauthorised disclosure of information.
+CTRL-0000001400,"All Company Physical Assets shall be protected against interference throughout removals and transfers  (e.g. system & data backup media protected from interference, hardware, software & data protected from unwanted access)."
+CTRL-0000001399,"Documents shall be labelled (including physical copies) with the data classification for confidentiality by the person who created the document, to ensure that documents are identified and protected according to the classification level."
+CTRL-0000001398,"Loss or theft of any Company asset, or a BYOD asset containing Company's data, shall be reported as a cyber security incident and managed via the Cyber Security Incident Management Procedure. This shall be incorporated into the Cyber Security awareness programme."
+CTRL-0000001397,"Only the Company’s formally contracted/licenced software products & tools that have been approved by the appointed CS architectural authorities that meet cyber security requirements, shall be selected for business use, in order to help avoid data leakage."
+CTRL-0000001396,The Company business shall only be conducted using company-provided identity.
+CTRL-0000001395,"The disposal mechanism shall be capable of permanently destroying or deleting the Company’s data, ensuring data is not recoverable by any computer forensic means."
+CTRL-0000001394,Automatic forwarding of electronic mail to other email addresses shall be prohibited.
+CTRL-0000001393,Configuration management processes and procedures (for ensuring consistency and performance of IT & OT System Assets) shall also incorporate the security requirements laid out in the Cyber Security Control Standards.
+CTRL-0000001392,"A Mobile Device Management (MDM) solution shall be implemented for all Mobile Devices (including BYOD and BYOC devices), including compliance rules for providing conditional access to the Company  IT networks and IT System Assets.  Compliance rules shall be defined by the appointed CS architectural authorities."
+CTRL-0000001391,"BYOD shall comply with the Company’s requirements for privacy, legal, e-discovery and legal holds."
+CTRL-0000001390,"The Company information accessed from, and stored in Mobile Devices shall be protected through a combination of device registration & authentication, access control, device-hardening in line with the Company End-point platform cyber security technical baselines, user awareness, and physical security controls."
+CTRL-0000001389,"Guidance on principles, practices & techniques for secure System Assets development shall be provided, based on industry best practices for common models & platforms."
+CTRL-0000001388,Jail-broken or rooted BYOD devices shall not be allowed to access the Company information.
+CTRL-0000001387,"Cyber security shall be addressed as part of project delivery frameworks/models, to ensure that engagement with the Cyber Security Function occurs at appropriate times in projects, and that necessary controls are identified and implemented. The framework/model shall include the development & acquisition of hardware, software, on-premise & cloud-based services."
+CTRL-0000001386,"Guidance on principles, practices & techniques for secure System Assets design, shall be provided, based on industry best practices for common models & platforms."
+CTRL-0000001385,Design of data backup and recovery solutions shall be approved by the appointed CS architectural authorities for IT domain. Additional approval shall be obtained from the Company’s appointed technical authority for OT.
+CTRL-0000001384,The backup process shall cater for restoring backups on new system hardware in case of partial or full system hardware failure.
+CTRL-0000001383,"Access to and/or use of proprietary applications, programs, or any other forms of intellectual property (IP), shall be appropriately restricted according to licencing terms & conditions."
+CTRL-0000001382,"Backup restoration shall be tested and verified as per schedule, where defined in the backup & restore plan."
+CTRL-0000001381,"All fire exit doors shall function in failsafe manner. Fire doors on a security perimeter shall be alarmed, monitored and tested."
+CTRL-0000001380,Data Centre locations shall not be publicly visible and identifiable.
+CTRL-0000001379,Periodic inspection of physical security and environment control shall be conducted as per approved schedule. Records of inspection shall be retained.
+CTRL-0000001378,"Toolchains shall be defined and implemented in support of the SDLC, including, but not limited to, orchestrators, code management systems, compilers, interpreters, build tools, peer review tools, issue management tools, testing tools."
+CTRL-0000001377,The contractual agreements with Employees & Contractors shall clearly state their (and the Company) responsibilities for cyber security.
+CTRL-0000001376,Emergency Services contact details and communication procedures shall be available for Data Centres.
+CTRL-0000001375,"Protection against physical and environmental threats, such as natural or man-made disasters, as well as accidental or deliberate physical threats to Company premises shall be addressed."
+CTRL-0000001374,"Power supply cabling, signal cabling and communication cabling shall be protected from interception, interference or damage."
+CTRL-0000001373,"The Company Employees and Contractors shall agree to terms and conditions stated under the employment contractual agreement, prior to employment."
+CTRL-0000001372,"Root-cause analysis shall be performed on all major incidents (Severity 1 and 2, as defined in Cyber Security Incident Management Process) at minimum (however, it is recommended for all repetitive incidents)."
+CTRL-0000001371,Confidentiality or non-disclosure agreement shall be signed by all Employees and Contractors on the day of joining the organization.
+CTRL-0000001370,Security roles and responsibilities shall be documented (e.g. Job description covering general or specific responsibilities to safeguard the Company information).
+CTRL-0000001369,Management shall require all Employees and Contractors to apply cyber security in accordance with the established standards and procedures of the Company.
+CTRL-0000001368,"Personal information of candidates shall be handled in accordance with applicable legislation (e.g. PDPA, GDPR)."
+CTRL-0000001367,"Background verification checks on candidates shall be carried out before employment, in accordance with relevant laws, regulations and business requirements."
+CTRL-0000001366,"Employees and contractor’s logical and physical access revocation shall be initiated immediately upon termination of employment, contract, or upon change of roles."
+CTRL-0000001365,"A virus scan shall be executed on removable media and devices when connecting to the Company’s data, systems, devices etc."
+CTRL-0000001364,"Removable media or devices from an unknown source shall not be used to connect to or access to the Company’s data, systems, devices etc."
+CTRL-0000001363,"Cyber security responsibilities, duties, and requirements, that remain valid after termination or change of employment, shall be defined and communicated to the Employees or Contractors, and duly enforced."
+CTRL-0000001362,"IT and OT Physical Assets shall be effectively maintained, commensurate with risk-assessment and defined controls."
+CTRL-0000001361,"Intrusion Detection Systems (IDS) and/or Intrusion Prevention Systems (IPS) shall be implemented at appropriate points in the network according to risk assessment, and shall be continuously updated with the latest attack signature information and scan engines.  Only passive types of IDS or IPS shall be used in OT environments."
+CTRL-0000001360,"Remote maintenance of System Assets by Third Party Suppliers shall be performed in a manner that provides only required access, with activities logged. Standard Third Party Access methods & services shall be used to provide restricted access."
+CTRL-0000001358,"The Company email services shall be designed & implemented securely, in order to protect against SPAM and preserve message authenticity."
+CTRL-0000001357,"The Company-managed IT networks shall be periodically scanned for non-registered, and/or non-compliant devices, and/or servers that have been inactive for 30 days."
+CTRL-0000001356,"Cyber Security-related event monitoring shall be implemented for IT & OT System Assets, at least for System Assets integrated into the SIEM system."
+CTRL-0000001355,"Cyber security events shall be assessed for impact, in order to ascertain which assets were affected, and to what degree."
+CTRL-0000001354,All physical access events shall be monitored for access to secure areas.
+CTRL-0000001353,Execution of unauthorised Mobile Code on the Company-managed End-points shall be prohibited.
+CTRL-0000001352,"System event logging & monitoring activities shall comply with federal laws, executive orders, directives, policies or regulations (including compliance requirements for log data e.g. transfer across jurisdictions)."
+CTRL-0000001351,Agreements for use of BYOC/BYOD devices in the Company networks shall include the requirement for up-to-date anti-malware protection.
+CTRL-0000001350,"The environmental conditions for siting of Physical Assets shall comply with the technical specifications of the equipment supplied. The environmental conditions shall be monitored, and should be equipped with diagnostics capabilities and alerting to prevent unnecessary impact from power failures, air-conditioning failures, and other disruptions."
+CTRL-0000001349,"Evidence / artefacts shall be collected in ITSM and stored securely as per incident response plan to avoid any tampering. However, where criminal or civil legal action against a person or organization is involved, forensic principles shall be applied, conforming to the rules for evidence laid down in the relevant local jurisdictions. (e.g. chain of custody etc.)."
+CTRL-0000001348,"Reports shall be periodically generated, listing vulnerabilities/non-compliances against the selected hardening specifications, and provided to IT Service Managers (and other agreed stakeholders, e.g. SOC)."
+CTRL-0000001347,"The cyber security incident record shall be updated in ITSM to ensure captured details are maintained, tracked and communicated."
+CTRL-0000001346,Roles & responsibilities for detection & reporting of Cyber Security events/incidents shall be clearly defined across organizational boundaries (including suppliers).
+CTRL-0000001345,"Cyber security events (that are anomalous to a normal expected baseline of operations & data flows) shall be flagged and reported as a potential cyber security incident as promptly as possible, upon detection."
+CTRL-0000001344,Cyber security incident details and status shall be communicated to relevant stakeholders.
+CTRL-0000001343,Incident report shall be classified as Confidential and distributed securely to the relevant parties.
+CTRL-0000001342,"Cyber Security Incident Response Plans (IRPs) shall be developed and implemented, to ensure proper resolution of cyber security incidents."
+CTRL-0000001341,"The Company Employees, Contractors, joint venture staff, service providers, Suppliers and other Third Parties shall be made aware of the incident reporting channels and procedures, and of their roles & responsibilities for reporting & managing cyber security events & incidents."
+CTRL-0000001340,Cyber security event/incident logging shall capture necessary data to facilitate immediate initial assessment and triage.
+CTRL-0000001339,Cyber security incidents shall be responded to in accordance with Company Incident Response Plan (IRP).
+CTRL-0000001338,Incidents shall be assessed for impact & severity.
+CTRL-0000001337,"Non-registered devices connected to the Company-managed IT networks shall be traced and either, registered or, barred from access within 3 hours of discovery."
+CTRL-0000001336,"Non-compliant devices connected to the Company-managed IT networks shall be traced and either, remediated or, barred from access within 4 weeks of discovery."
+CTRL-0000001335,The IRP shall include the necessary steps to mitigate the incident.
+CTRL-0000001334,Selected groups and associations within the wider (external) cyber security community shall be established for the purposes of threat intelligence-sharing.
+CTRL-0000001333,"IT Servers that are registered for connection to the Company-managed IT networks, but have been inactive for 30 days or more shall be de-registered and forced to undergo re-registration."
+CTRL-0000001332,"The IRP shall include the necessary steps to contain the incident, to avoid further spread and impact."
+CTRL-0000001331,"The Company’s strategic communications function shall be involved for official press release and reporting to relevant authorities (where necessary), for Severe impact incidents, as required.  Any breach involving Personal Data or Sensitive Personal Data shall be reported to the relevant data protection authority within 72 hours of breach detection."
+CTRL-0000001330,Any required audits and/or compliance assessments should be carefully planned to minimise the risk of disruptions to business processes.  Any audit activities should be logged and system audit tools & logs duly protected.
+CTRL-0000001329,"The Cyber Security Awareness & Training should provide education for those facing higher risks, such as senior executives, and those handling Secret information."
+CTRL-0000001328,"Recovery strategies shall be updated to reflect lessons learned from previous incidents, and changes in recovery capabilities."
+CTRL-0000001327,A record of disposal of Physical Assets should be maintained electronically.
+CTRL-0000001326,The Cyber Risk Appetite should also take into account the organization's role in providing national & global critical services & market supply.
+CTRL-0000001324,"Secure design and development training, including secure coding practices, should be conducted for system/application architects and developers."
+CTRL-0000001323,"Measures to protect against data leakage shall be implemented, to prevent leakage of the Company’s Secret and Confidential data."
+CTRL-0000001322,"Risk Treatment Options (mitigate, accept, transfer, avoid) should be identified and approved."
+CTRL-0000001321,"The effectiveness of deployed protection technologies should be analysed & reported periodically, in order to ascertain necessary improvements."
+CTRL-0000001320,"Lessons learned from cyber security incidents shall be recorded and used to improve protection, and reduce the likelihood or impact from future incidents."
+CTRL-0000001319,"Monitoring should also look for anomalous activities related to individual Employees, Contractors, & Third Parties (e.g. data leakage, malware infection, unexpected use of elevated privileges etc.)."
+CTRL-0000001318,"Supplier activities in the Company-managed environments should be monitored, to detect potential Cyber Security events."
+CTRL-0000001317,"Incident detection & response testing should take place at least annually, to establish the effectiveness of responses to typical incident types."
+CTRL-0000001316,"Alert thresholds should be developed & refined (e.g. in the SIEM system) to help distinguish normally-expected events from anomalous events, and cut down on false positives."
+CTRL-0000001315,"Results of incident detection & response testing should be documented and published to relevant stakeholders, and necessary improvements made to detection & response processes."
+CTRL-0000001314,"Monitoring alerts should be progressively tuned to flag unauthorized personnel, connections, devices, and software on the network."
+CTRL-0000001313,Incident communication and escalation matrix should be defined in IRP's.
+CTRL-0000001312,"Incident impact, severity levels, response and resolution time should be defined in the IRP."
+CTRL-0000001311,The Incident Response Plan (IRP) should include the roles & responsibilities for each of the response steps.
+CTRL-0000001310,Incident information and individual incident responses should be correlated to achieve an organization-wide perspective on incident awareness and response.
+CTRL-0000001309,"The categorisation and prioritisation of incidents should be adhered to, as defined in the IRP."
+CTRL-0000001308,"The IRP should include communication & coordination with stakeholders, support teams, suppliers & Third Parties, as required."
+CTRL-0000001307,"Response to a cyber security incident should involve Forensic Analysis, and evidence gathering, where necessary."
+CTRL-0000001306,"The IRP should include incident categorization, prioritization, management, and reporting."
+CTRL-0000001305,"Detected events shall be investigated to ascertain if they are cyber security incidents, to be handled further under the Cyber Security Incident Management Procedure."
+CTRL-0000001304,"Response strategies shall be continuously improved to reflect lessons learned from previous incidents, changes in the threat landscape, and changes in response capabilities."
+CTRL-0000001303,IRP's shall incorporate lessons learned from previous incidents.
+CTRL-0000001302,"Reputation damage should be contained, and repaired to as great an extent as practically possible, following an incident."
+CTRL-0000001301,"Cyber security event/incident reporting shall be enabled through various channels which include, but not limited to email, phone and ticketing system. The reporting mechanism shall be accessible, available and user-friendly, in order to encourage reporting."
+CTRL-0000001300,"For outsource/Cloud infrastructure services, where the Company is responsible for vulnerability management, then the Company standard tools and techniques shall be used, where possible."
+CTRL-0000001299,"Detected events shall be analysed to gain an understanding of attack vectors, threat sources, and methods of attack."
+CTRL-0000001298,Coordination between outsource/Cloud Service Providers’ and the Company’s Vulnerability Management Process should be in place to ensure effective handling of High-Risk Findings relating to unaddressed vulnerabilities.
+CTRL-0000001297,"Secure Areas (e.g. computer rooms, secured cabinets etc.) shall be created within the Company’s premises for placing/storing System Assets that require extra physical protection/isolation. Sufficient physical barriers shall be in place to restrict entry to authorized persons only."
+CTRL-0000001296,"Data backup and restoration plans shall be created, reviewed, and maintained, to ensure it continues to address the identified requirements."
+CTRL-0000001197,"Integrity checking mechanisms (e.g. file hashing, check summing etc.) shall be used to verify software, firmware, and data integrity for IT software installation packages, and for IT systems which are rated as having SEVERE business impact for loss of Integrity, and for those IT systems that store/ process/ transmit PCI-related data."
+CTRL-0000001196,"Remediation of technical vulnerabilities in system assets shall be conducted in a timely way.
+For IT System Asset, refer to “Cyber Security Control Procedures for Practitioners – IT Technical Vulnerability Management” for the remediation timeline.
+For OT System Assets, critical or high vulnerabilities discovered in OT System Assets where CS BIA is rated as Severe or Major shall be remediated within 3 weeks. Other non-critical or High vulnerabilities shall be remediated within one month.
+Remediation to OT System Assets shall follow the approved OT cyber security control procedures for patch management and vulnerability management.
+*Note: Any OT System Assets that have not been rated in CS BIA it should follow the existing Equipment Criticality Assessment (ECA)."
+CTRL-0000001195,Risk of the Company exposure to identified technical vulnerabilities shall be assessed.
+CTRL-0000001194,The Company-managed IT System Assets rated as having SEVERE or MAJOR business impact in terms of Availability shall be protected against power failures by provision of alternate power supply.
+CTRL-0000001193,Suppliers shall immediately notify the Company if DR Plans are activated for System Assets rated as having SEVERE or MAJOR business impact in terms of Availability.
+CTRL-0000001192,The Company shall develop and maintain IT network/system architecture diagrams. Changes should be incorporated in the diagrams in a timely way.
+CTRL-0000001191,"Cyber security risk assessment of open source software shall be implemented, including vulnerability checks, and potential restrictions on use."
+CTRL-0000001190,"A Secure System Development Life Cycle methodology shall be developed, deployed and maintained (e.g. DevSecOps), and shall be kept up-to-date to reflect and cater for new and emerging application platforms. All developments at the Company shall follow the chosen methodology."
+CTRL-0000001189,"Third Parties shall adhere to the Company’s procedures and guidelines for change management, testing and release of System Assets on the Company IT or OT networks."
+CTRL-0000001188,"Hardening specifications for database technologies & common middleware platforms shall be defined, approved by the appointed CS architectural authorities, and implemented, to ensure that they can be properly secured."
+CTRL-0000001187,Integrity checking mechanisms shall be used to verify hardware integrity for all systems and devices rated as having SEVERE business impact for loss of Integrity and/or those that store/ process/ transmit PCI-related data.
+CTRL-0000001186,"IT network device security shall be ensured through implementation of hardening specifications approved by the appointed CS architectural authorities, in combination with secure technical configuration & documented management processes, including firewall configuration and rule-set management."
+CTRL-0000001185,"Hardening specifications for all types of the Company-managed End-points shall be defined and approved by the appointed CS architectural authorities, to ensure that they can be Secure-by-Design."
+CTRL-0000001184,"The Company information/data classified as Secret, or handled by System Assets rated as having SEVERE business impact in terms of Confidentiality and/or Integrity, shall be protected by Strong Encryption whilst in transit across all networks, Trusted or Untrusted, unless source and target System Assets are contained within the same Secure Cell."
+CTRL-0000001183,"Cryptographic processes for Cloud-based IaaS/PaaS services shall be managed by the Company. Cryptographic infrastructure may be managed by CSP's (or other Third Parties), provided that they do not have access to unencrypted cryptographic keys."
+CTRL-0000001182,"The Company information/data classified as Secret, or handled by System Assets rated as having SEVERE business impact with respect to Confidentiality and/or Integrity, shall be protected by Strong Encryption or hosted in a Secure Cell, whilst at rest on IT or OT systems."
+CTRL-0000001181,"All accounts used to access System Assets shall be securely configured, with strong passwords implemented as defined by the appointed CS architectural authorities for each technology domain."
+CTRL-0000001180,Third Party access to the Company IT & OT System Assets shall be accompanied by a Third Party Access Agreement containing the cyber security responsibilities of the user(s).
+CTRL-0000001178,"The Company information/data shall be secured in line with its classification, with access provided to users on a ""Least Privilege"" basis."
+CTRL-0000001177,Third Party access to the Company IT & OT System Assets shall require approval from a Company sponsor.
+CTRL-0000001176,"Remote access to the Company internal IT/OT networks shall be controlled to avoid the risk of external compromise, with access provided via standard, securely-managed encrypted services approved by the appointed CS architectural authorities."
+CTRL-0000001175,"Suppliers and contractors shall be subject to periodic, risk-based assessment (e.g. using audits, SOC2/3 attestations, KPI/KRI reporting, or other forms of evaluation) to confirm they are meeting their cyber security obligations."
+CTRL-0000001174,"There shall be integration between outsource/Cloud Service Providers (CSP's) and the Company's cyber security incident management process, in order to ensure effective management of cyber security incidents related to System Assets rated as having SEVERE business impact in terms of Confidentiality, Integrity, and/or Availability."
+CTRL-0000001173,"For situations where business impact has been assessed as MAJOR or SEVERE for Confidentiality, the Company shall be aware about the storage locations of their data, including data hosted on Cloud, to ensure the compliance with data export regulations."
+CTRL-0000001172,"Suppliers and their Sub-Contractors providing System Assets to the Company shall adhere to privacy & data protection requirements, as per the governing laws and regulations, and shall protect the Company's data in accordance with its data classification, and as per the clauses within their contracts."
+CTRL-0000001171,"Supplier agreements shall be established and documented with suppliers of all IT/OT solutions and/or services for the Company business use, via the Company standard procurement practices. These agreements shall include the relevant Company’s cyber security and legal & regulatory requirements."
+CTRL-0000001170,"Payment Card data shall be treated as CONFIDENTIAL, and duly protected in line with PCI-DSS, except for Primary Account Number (PAN) which shall be treated as SECRET and duly encrypted and protected.  In accordance with PCI-DSS, payment card PIN and password information shall NOT be stored."
+CTRL-0000001169,"SOC (System & Organization Controls) attestations shall be obtained from Cloud and/or outsourced providers for System Assets rated as having SEVERE business impact in terms of Confidentiality, Integrity, and/or Availability.  In cases where SOC attestation are not available, the Company should reserve the right in the contract to conduct audit on the supplier’s site, processes, personnel and controls."
+CTRL-0000001168,"All relevant cyber security requirements shall be identified and agreed with each supplier that has access to, or can impact, the Company’s System Assets."
+CTRL-0000001167,SR 6.1 RE 1 - The control system shall provide programmatic access to audit records using an application programming interface (API).
+CTRL-0000001166,SR 6.1 - The control system shall provide the capability for authorized humans and/or tools to access audit logs on a read-only basis.
+CTRL-0000001165,SR 2.4 RE 1 - The control system shall provide the capability to verify integrity of the mobile code before allowing code execution.
+CTRL-0000001164,"SR 5.4 - The control system shall provide the capability to support partitioning of data, applications and services based on criticality to facilitate implementing a zoning model."
+CTRL-0000001163,"SR 2.4 - The control system shall provide the capability to enforce usage restrictions for mobile code technologies based on the potential to cause damage to the control system that include:
+a) preventing the execution of mobile code;
+b) requiring proper authentication and authorization for origin of the code;
+c) restricting mobile code transfer to/from the control system; and
+d) monitoring the use of mobile code."
+CTRL-0000001162,SR 3.2 RE 1 - The control system shall provide the capability to employ malicious code protection mechanisms at all entry and exit points.
+CTRL-0000001161,"The control system shall provide the capability to employ protection mechanisms to prevent, detect, report and mitigate the effects of malicious code or unauthorized software. The control system shall provide the capability to update the protection mechanisms."
+CTRL-0000001160,SR 3.2 RE 2 - The control system shall provide the capability to manage malicious code protection mechanisms.
+CTRL-0000001159,"SR 6.2 - The control system shall provide the capability to continuously monitor all security mechanism performance using commonly accepted security industry practices and recommendations to detect, characterize and report security breaches in a timely manner."
+CTRL-0000001158,SR 7.5 - The control system shall provide the capability to switch to and from an emergency power supply without affecting the existing security state or a documented degraded mode.
+CTRL-0000001157,"SR 3.9 - The control system shall protect audit information and audit tools (if present) from unauthorized access, modification and deletion."
+CTRL-0000001156,SR 3.9 RE 1 - The control system shall provide the capability to produce audit records on hardware-enforced write-once media.
+CTRL-0000001155,SR 3.7 - The control system shall identify and handle error conditions in a manner such that effective remediation can occur. This shall be done in a manner which does not provide information that could be exploited by adversaries to attack the IACS unless revealing this information is necessary for the timely troubleshooting of problems.
+CTRL-0000001154,SR 4.1 RE 2 - The control system shall provide the capability to protect the confidentiality of information traversing any zone boundary.
+CTRL-0000001153,"SR 4.3 - If cryptography is required, the control system shall use cryptographic algorithms, key sizes and mechanisms for key establishment and management according to commonly accepted security industry practices and recommendations."
+CTRL-0000001152,SR 3.6 - The control system shall provide the capability to set outputs to a predetermined state if normal operation cannot be maintained as a result of an attack.
+CTRL-0000001151,SR 5.3 - The control system shall provide the capability to prevent general purpose person-to-person messages from being received from users or systems external to the control system.
+CTRL-0000001150,SR 4.1 RE 1 - The control system shall provide the capability to protect the confidentiality of information at rest and remote access sessions traversing an untrusted network.
+CTRL-0000001149,"SR 4.1 - The control system shall provide the capability to protect the confidentiality of information for which explicit read authorization is supported, whether at rest or in transit."
+CTRL-0000001148,SR 5.3 RE 1 - The control system shall provide the capability to prevent both transmission and receipt of general purpose person-to-person messages.
+CTRL-0000001147,"SR 1.11 - The control system shall provide the capability to enforce a limit of a configurable number of consecutive invalid access attempts by any user (human, software process or device) during a configurable time period. The control system shall provide the capability to deny access for a specified period of time or until unlocked by an administrator when this limit has been exceeded.
+For system accounts on behalf of which critical services or servers are run, the control system shall provide the capability to disallow interactive logons."
+CTRL-0000001146,SR 3.5 - The control system shall validate the syntax and content of any input which is used as an industrial process control input or input that directly impacts the action of the control system.
+CTRL-0000001145,SR 1.12 - The control system shall provide the capability to display a system use notification message before authenticating. The system use notification message shall be configurable by authorized personnel.
+CTRL-0000001144,SR 2.2 RE 1 - The control system shall provide the capability to identify and report unauthorized wireless devices transmitting within the control system physical environment.
+CTRL-0000001143,SR 2.3 RE 1 - The control system shall provide the capability to verify that portable or mobile devices attempting to connect to a zone comply with the security requirements of that zone.
+CTRL-0000001142,SR 2.5 - The control system shall provide the capability to prevent further access by initiating a session lock after a configurable time period of inactivity or by manual initiation. The session lock shall remain in effect until the human user who owns the session or another authorized human user re-establishes access using appropriate identification and authentication procedures.
+CTRL-0000001141,"SR 2.2 - The control system shall provide the capability to authorize, monitor and enforce usage restrictions for wireless connectivity to the control system according to commonly accepted security industry practices."
+CTRL-0000001140,"SR 2.3 - The control system shall provide the capability to automatically enforce configurable usage restrictions that include:
+a) preventing the use of portable and mobile devices;
+b) requiring context specific authorization; and
+c) restricting code and data transfer to/from portable and mobile devices."
+CTRL-0000001139,SR 2.12 - The control system shall provide the capability to determine whether a given human user took a particular action.
+CTRL-0000001138,SR 2.11 RE 2 - The time source shall be protected from unauthorized alteration and shall cause an audit event upon alteration.
+CTRL-0000001137,"SR 2.12 RE 1 - The control system shall provide the capability to determine whether a given user (human, software process or device) took a particular action."
+CTRL-0000001136,SR 2.11 RE 1 - The control system shall provide the capability to synchronize internal system clocks at a configurable frequency.
+CTRL-0000001135,SR 2.9 - The control system shall allocate sufficient audit record storage capacity according to commonly recognized recommendations for log management and system configuration. The control system shall provide auditing mechanisms to reduce the likelihood of such capacity being exceeded.
+CTRL-0000001134,SR 2.10 - The control system shall provide the capability to alert personnel and prevent the loss of essential services and functions in the event of an audit processing failure. The control system shall provide the capability to support appropriate actions in response to an audit processing failure according to commonly accepted industry practices and recommendations.
+CTRL-0000001133,SR 2.11 - The control system shall provide timestamps for use in audit record generation.
+CTRL-0000001132,SR 2.9 RE 1 - The control system shall provide the capability to issue a warning when the allocated audit record storage volume reaches a configurable percentage of maximum audit record storage capacity.
+CTRL-0000001131,"The control system shall provide the capability to generate audit records relevant to security for the following categories: access control, request errors, operating system events, control system events, backup and restore events, configuration changes, potential reconnaissance
+activity and audit log events. Individual audit records shall include the timestamp, source (originating device, software process or human user account), category, type, event ID and event result."
+CTRL-0000001130,SR 4.2 RE 1 - The control system shall provide the capability to prevent unauthorized and unintended information transfer via volatile shared memory resources.
+CTRL-0000001129,SR 4.2 - The control system shall provide the capability to purge all information for which explicit read authorization is supported from components to be released from active service and/or decommissioned.
+CTRL-0000001128,"SR 2.8 RE 1 - The control system shall provide the capability to centrally manage audit events and to compile audit records from multiple components throughout the control system into a systemwide (logical or physical), time-correlated audit trail. The control system shall provide the capability to export these audit records in industry standard formats for analysis by standard commercial log analysis tools, for example, security information and event management (SIEM)."
+CTRL-0000001127,SR 7.3 RE 2 - The control system shall provide the capability to automate the backup function based on a configurable frequency.
+CTRL-0000001126,SR 7.3 RE 1 - The control system shall provide the capability to verify the reliability of backup mechanisms.
+CTRL-0000001125, The control system shall provide the capability to recover and reconstitute to a known secure state after a disruption or failure.
+CTRL-0000001124,The identity and location of critical files and the ability to conduct backups of user-level and system-level information (including system state information) shall be supported by the control system without affecting normal plant operations.
+CTRL-0000001123,SR 3.4 RE 1 - The control system shall provide the capability to use automated tools that provide notification to a configurable set of recipients upon discovering discrepancies during integrity verification.
+CTRL-0000001122,SR 7.6 RE 1 - The control system shall provide the capability to generate a report listing the currently deployed security settings in a machine-readable format.
+CTRL-0000001121,The control system shall provide the capability to be configured according to recommended network and security configurations as described in guidelines provided by the control system supplier. The control system shall provide an interface to the currently deployed network and security configuration settings.
+CTRL-0000001120,"SR 7.7 - The control system shall provide the capability to specifically prohibit and/or restrict the use of unnecessary functions, ports, protocols and/or services."
+CTRL-0000001119,SR 3.3 - The control system shall provide the capability to support verification of the intended operation of security functions during normal operations.
+CTRL-0000001118,"SR 3.3 RE 1 - The control system shall provide the capability to employ automated mechanisms to support management of security verification during FAT, SAT and scheduled maintenance."
+CTRL-0000001117,"SR 3.3 RE 2 - The control system shall provide the capability to support verification of the intended operation of security functions and report when anomalies are discovered during FAT, SAT and scheduled maintenance. These security functions shall include all those necessary to support the security requirements specified in this standard."
+CTRL-0000001116,"SR 3.4 - The control system shall provide the capability to detect, record, report and protect against unauthorized changes to software and information at rest."
+CTRL-0000001115,"SR 7.1 RE 2 - The control system shall provide the capability to restrict the ability of all users (humans, software processes and devices) to cause DoS events which affect other control systems or networks."
+CTRL-0000001114,SR 7.1 RE 1 - The control system shall provide the capability to manage communication loads (such as using rate limiting) to mitigate the effects of information flooding types of DoS events.
+CTRL-0000001113,SR 7.2 - The control system shall provide the capability to limit the use of resources by security functions to prevent resource exhaustion.
+CTRL-0000001112,SR 7.1 - The control system shall provide the capability to operate in a degraded mode during a DoS event.
+CTRL-0000001111,SR 3.8 RE 1 - The control system shall provide the capability to invalidate session IDs upon user logout or other session termination (including browser sessions).
+CTRL-0000001110,SR 3.8 RE 2 - The control system shall provide the capability to generate a unique session ID for each session and treat all unexpected session IDs as invalid.
+CTRL-0000001109,SR 3.8 - The control system shall provide the capability to protect the integrity of sessions. The control system shall reject any usage of invalid session IDs.
+CTRL-0000001108,SR 3.8 RE 3 - The control system shall provide the capability to generate unique session IDs with commonly accepted sources of randomness.
+CTRL-0000001107,"SR 1.9 - For control systems utilizing public key authentication, the control system shall provide the capability to:
+a) validate certificates by checking the validity of the signature of a given certificate;
+b) validate certificates by constructing a certification path to an accepted CA or in the case of self-signed certificates by deploying leaf certificates to all hosts which communicate with the subject to which the certificate is issued;
+c) validate certificates by checking a given certificate’s revocation status;
+d) establish user (human, software process or device) control of the corresponding private key; and
+e) map the authenticated identity to a user (human, software process or device)."
+CTRL-0000001106,SR 1.10 - The control system shall provide the capability to obscure feedback of authentication information during the authentication process.
+CTRL-0000001105,SR 3.1 RE 1 - The control system shall provide the capability to employ cryptographic mechanisms to recognize changes to information during communication.
+CTRL-0000001104,SR 1.9 RE 1 - The control system shall provide the capability to protect the relevant private keys via hardware mechanisms according to commonly accepted security industry practices and recommendations.
+CTRL-0000001103,SR 5.2 RE 3 - The control system shall provide the capability to prevent any communication through the control system boundary when there is an operational failure of the boundary protection mechanisms (also termed fail close). This ‘fail close’ functionality shall be designed such that it does not interfere with the operation of a SIS or other safety-related functions.
+CTRL-0000001102,SR 3.1 - The control system shall provide the capability to protect the integrity of transmitted information.
+CTRL-0000001101,SR 5.2 RE 2 - The control system shall provide the capability to prevent any communication through the control system boundary (also termed island mode).
+CTRL-0000001100,"SR 5.2 RE 1 - The control system shall provide the capability to deny network traffic by default and allow network traffic by exception (also termed deny all, permit by exception)."
+CTRL-0000001099,SR 5.2 - The control system shall provide the capability to monitor and control communications at zone boundaries to enforce the compartmentalization defined in the risk-based zones and conduits model.
+CTRL-0000001098,SR 5.1 RE 3 - The control system shall provide the capability to logically and physically isolate critical control system networks from non-critical control system networks.
+CTRL-0000001097,"SR 5.1 RE 2 - The control system shall have the capability to provide network services to control system networks, critical or otherwise, without a connection to non-control system networks."
+CTRL-0000001096,The control system shall provide the capability to physically segment control system networks from non-control system networks and to physically segment critical control system networks from non-critical control system networks.
+CTRL-0000001095,The control system shall provide the capability to logically segment control system networks from non-control system networks and to logically segment critical control system networks from other control system networks.
+CTRL-0000001094,SR 2.1 RE 4 - The control system shall support dual approval where an action can result in serious impact on the industrial process.
+CTRL-0000001093,SR 2.1 RE 3 - The control system shall support supervisor manual override of the current human user authorizations for a configurable time or event sequence.
+CTRL-0000001092,SR 2.1 RE 2 - The control system shall provide the capability for an authorized user or role to define and modify the mapping of permissions to roles for all human users.
+CTRL-0000001091," On all interfaces, the control system shall provide the capability to enforce authorizations assigned to all human users for controlling use of the control system to support segregation of duties and least privilege."
+CTRL-0000001090,SR 2.6 - The control system shall provide the capability to terminate a remote session either automatically after a configurable time period of inactivity or manually by the user who initiated the session.
+CTRL-0000001089,"SR 2.7 - The control system shall provide the capability to limit the number of concurrent sessions per interface for any given user (human, software process or device) to a configurable number of sessions."
+CTRL-0000001088,"SR 2.1 - On all interfaces, the control system shall provide the capability to enforce authorizations assigned to all users (humans, software processes and devices) for controlling use of the control system to support segregation of duties and least privilege."
+CTRL-0000001087,"SR 1.8 - Where PKI is utilized, the control system shall provide the capability to operate a PKI according to commonly accepted best practices or obtain public key certificates from an existing PKI."
+CTRL-0000001086,SR 1.7 RE 2 - The control system shall provide the capability to enforce password minimum and maximum lifetime restrictions for all users.
+CTRL-0000001085,The control system shall provide the capability to deny access requests via untrusted networks unless approved by an assigned role.
+CTRL-0000001084,SR 1.13 - The control system shall provide the capability to monitor and control all methods of access to the control system via untrusted networks.
+CTRL-0000001083,"SR 1.7 RE 1 - The control system shall provide the capability to prevent any given human user account from reusing a password for a configurable number of generations. In addition, the control system shall provide the capability to enforce password minimum and maximum lifetime restrictions for human users. These capabilities shall conform with commonly accepted security industry practices."
+CTRL-0000001082,"SR 1.6 RE 1 - The control system shall provide the capability to uniquely identify and authenticate all users (humans, software processes or devices) engaged in wireless communication."
+CTRL-0000001081,"SR 1.7 - For control systems utilizing password-based authentication, the control system shall provide the capability to enforce configurable password strength based on minimum length and variety of character types."
+CTRL-0000001080,"SR 1.6 - The control system shall provide the capability to identify and authenticate all users (humans, software processes or devices) engaged in wireless communication."
+CTRL-0000001079,"SR 1.4 - The control system shall provide the capability to support the management of identifiers by user, group, role or control system interface."
+CTRL-0000001078,"SR 1.5 RE 1 - For software process and device users, the control system shall provide the capability to protect the relevant authenticators via hardware mechanisms."
+CTRL-0000001077,"SR 1.5 - The control system shall provide the capability to:
+a) initialize authenticator content;
+b) change all default authenticators upon control system installation;
+c) change/refresh all authenticators; and
+d) protect all authenticators from unauthorized disclosure and modification when stored and transmitted."
+CTRL-0000001076,SR 1.3 RE 1 - The control system shall provide the capability to support unified account management.
+CTRL-0000001075,SR 1.2 - The control system shall provide the capability to identify and authenticate all software processes and devices. This capability shall enforce such identification and authentication on all interfaces which provide access to the control system to support least privilege in accordance with applicable security policies and procedures.
+CTRL-0000001074,SR 1.2 RE 1 - The control system shall provide the capability to uniquely identify and authenticate all software processes and devices.
+CTRL-0000001073,SR 1.1 RE 3 - The control system shall provide the capability to employ multifactor authentication for all human user access to the control system.
+CTRL-0000001072,"SR 1.3 - The control system shall provide the capability to support the management of all accounts by authorized users, including adding, activating, modifying, disabling and removing accounts."
+CTRL-0000001071,SR 1.1 RE 2 - The control system shall provide the capability to employ multifactor authentication for human user access to the control system via an untrusted network.
+CTRL-0000001070,The control system shall provide the capability to report the current list of installed components and their associated properties.
+CTRL-0000001069,SR 1.1 RE 1 - The control system shall provide the capability to uniquely identify and authenticate all human users.
+CTRL-0000001068,SR 1.1 - The control system shall provide the capability to identify and authenticate all human users. This capability shall enforce such identification and authentication on all interfaces which provide human user access to the control system to support segregation of duties and least privilege in accordance with applicable security policies and procedures.
+CTRL-0000001067,"Strong Encryption shall be used for all transfers of Sensitive Personal Data  between System Assets, unless source and destination systems are contained within the same Secure Cell."
+CTRL-0000001066,"System Assets processing Sensitive Personal Data shall implement encryption of data-at-rest, or shall be hosted within a Secure Cell."
+CTRL-0000001065,"Encrypted connections, using protocols that have been approved by the appointed CS architectural authority, shall be used for all access via Privileged IT accounts to IT System Assets."
+CTRL-0000001064,All IT system assets shall be configured to retrieve time information from authorised time services to ensure time stamps for system logs are consistent. Access to configure time synchronisation shall be restricted to authorised system administrators.
+CTRL-0000001063,All privileged IT accounts shall require MFA.
+CTRL-0000001062,"DR Plans shall incorporate the lessons learned from any continuity and disaster incidents, and/or DR testing."
+CTRL-0000001061,"The setting of password policy for Privileged IT Accounts to ""no expiry"" shall be prohibited."
+CTRL-0000001060,DR Plans shall incorporate a communication plan to advise (internal & external) stakeholders of recovery activities.
+CTRL-0000001059,Suppliers shall ensure security requirements are still met during the activation of a DR Plan.
+CTRL-0000001058,"The DR plan shall be implemented in order to recover from a cyber security incident of the appropriate type & severity, as defined in the DR plan."
+CTRL-0000001057,"Vulnerabilities shall be addressed within the timescales laid out under the Cyber Risk Management Guidelines & Procedures. Delayed, or non-deployment of mitigating controls/fixes/patches to address vulnerabilities shall be treated as Findings subject to standard procedures for Findings Management."
+CTRL-0000001056,Suppliers shall have DR plans in place to ensure that the minimum requirements for service continuity & information availability can be met for System Assets rated as having SEVERE or MAJOR business impact in terms of Availability. The DR plan shall be tested by Suppliers annually.
+CTRL-0000001055,"Detection, prevention and recovery controls to protect against malware shall be implemented, combined with appropriate standards, guidelines and procedures in place, including user awareness and training."
+CTRL-0000001054,"Technical vulnerability scans, assessments (including patching assessments), and penetration testing shall be performed for IT systems and networks, taking into account IT and service requirements and constraints. Any types of technical vulnerability scans, or assessments for OT systems shall be passive, and based on risk assessment. No penetration test to be done for OT systems."
+CTRL-0000001053,Configuration management processes and procedures (for ensuring consistency and performance of IT & OT System Assets) shall incorporate checking of configurations of System Assets against requirements laid out in the relevant hardening specifications.
+CTRL-0000001052,IT System Assets rated as having SEVERE or MAJOR business impact in terms of Availability shall have appropriate High Availability features built into the architectural design to avoid single points of failure.
+CTRL-0000001051,Cyber security requirements for event logging shall be identified for IT and OT System Assets.
+CTRL-0000001050,System event logging shall be enabled on IT System Assets.
+CTRL-0000001049,"DR Plans for System Assets, rated as having SEVERE or MAJOR business impact in terms of Availability, shall be tested annually (at least partially, but ensuring that end-to-end testing is completed over a 3-year cycle)."
+CTRL-0000001048,"Processes & procedures shall be defined to ensure that action plans are developed to address findings/non-compliances in a timely way.  Unaddressed findings shall be registered, then duly risk-assessed and treated, as per the Cyber Security Risk Management Guidelines & Procedures."
+CTRL-0000001047,"A DR test plan shall be defined for System Assets rated as having SEVERE or MAJOR business impact in terms of Availability, with success criteria established in advance of testing."
+CTRL-0000001046,A DR Plan shall be developed to recover from cyber security incidents for System Assets rated as having SEVERE or MAJOR business impact in terms of Availability.
+CTRL-0000001045,"Data backups shall be logged, and securely stored/maintained in accordance with the agreed backup and restoration plan."
+CTRL-0000001044,Backup information shall be retained based on the backup & restore plan.
+CTRL-0000001042,"Changes to IT & OT System Assets shall be reviewed to ensure that they were successful, and then finally signed off by the relevant authority."
+CTRL-0000001041,"Requirements for backup of System Assets and data rated as being SEVERE or MAJOR business impact in terms of Availability, shall be part of the System Asset DR Plan. This shall include retention requirements, where applicable."
+CTRL-0000001040,Data backups shall be performed as per the backup plan agreed with the business/application/service owners.
+CTRL-0000001039,Third Party software providers shall provide assurance of code integrity and absence of vulnerabilities.
+CTRL-0000001038,"Changes to IT System Assets shall be formally requested, planned, approved and initiated. Changes to OT assets shall be as per the site's MOC procedures and guidelines and the PTW system of the facility."
+CTRL-0000001037,Changes shall be deployed in accordance with the agreed roll-out plan for the change.
+CTRL-0000001036,"Changes to IT System Assets shall be properly tested in Test environments (where available), prior to deployment in Production. Changes to OT Assets, as per the MOC, shall be tested in the Factory Acceptance Test (FAT) followed by Site Acceptance Test (SAT). Testing shall cover cyber security aspects, where appropriate (e.g. negative testing of access controls)."
+CTRL-0000001035,The project delivery framework shall be applied to all IT and OT projects.
+CTRL-0000001034,Source code shall be protected against unauthorised access or change.
+CTRL-0000001033,Cyber security testing shall be undertaken before new or changed IT systems/applications are migrated to Production environments.
+CTRL-0000001031,End-points shall be hardened in accordance with the defined specifications.
+CTRL-0000001030,"Capacity resources shall be monitored and reported for System Assets rated as having SEVERE or MAJOR business impact in terms of Availability, to ascertain their adequacy in maintaining availability, and to prevent misuse. The usage capacity monitoring shall include system memory storage and network utilisation."
+CTRL-0000001029,"End-point IT operating software releases shall be kept up-to-date. Software shall be:
+a. licenced and supported by the vendor; 
+b. within two major releases of the latest major vendor release (i.e. n-2, at the oldest);
+c. removed from devices when no longer supported."
+CTRL-0000001028,System & network capacity requirements shall be identified as part IT service development.  Additional capacity shall be factored in for System Assets rated as having SEVERE or MAJOR business impact in terms of Availability.
+CTRL-0000001026,"Passwords shall not be displayed anywhere on Physical Assets, or documented in operating manuals, or hard-coded in source code."
+CTRL-0000001025,The minimum password age for Privileged IT Acounts shall be one (1) day and maximum age of passwords shall be thirty (30) days.
+CTRL-0000001024,"MFA shall be used for access to IT System Assets assessed as having a CS BIA rating of SEVERE or MAJOR due to loss of Confidentiality, Integrity, or Availability."
+CTRL-0000001023,"Access rights and privileges shall be provided in accordance with the principle of ""Least Privilege"", and shall be in line with defined access policies for System Assets."
+CTRL-0000001022,"Changes in user access, through modifications of roles or permissions, shall be properly controlled."
+CTRL-0000001021,"Role-based access shall be granted to only perform authorised duties, which are relevant to corresponding job roles and responsibilities."
+CTRL-0000001020,"Access by Third Parties (e.g. vendors, service providers, partner companies etc.) shall be securely managed, in order to ensure that only specifically-required access is provided for the agreed period."
+CTRL-0000001019,Inactive accounts shall be disabled to avoid the risks of unused/unnecessary accounts being present for unauthorised use.
+CTRL-0000001018,There shall be a user access review process in place to ensure accounts are still required and access rights remain appropriate.
+CTRL-0000001017,Remote connection shall be disabled by default on End-Points.
+CTRL-0000001016,"Access policies shall be defined for Company networks, System Assets and services, taking into account requirements for segregation of duties and responsibilities."
+CTRL-0000001015,"A formal user account provisioning process shall be in place, for provision of all types of accounts."
+CTRL-0000001014,"In the case of a change in role or access requirement, an access modification request shall be raised and actioned."
+CTRL-0000001013,"Use of privileged IT/OT accounts shall be strictly controlled, to avoid the risks of system misuse or compromize."
+CTRL-0000001012,"User accounts shall be de-provisioned in a timely way, to avoid the risks of unused/unnecessary accounts being retained."
+CTRL-0000001011,"Emergency accounts shall only be used when access to privileged accounts is unavailable, and shall be strictly controlled."
+CTRL-0000001010,"Use of IT service accounts shall be strictly controlled, in order to avoid risks of compromise."
+CTRL-0000001009,"Generic and Default accounts (e.g. as provided with “out-of-the-box” installations) shall be subject to password change, and strong password rules, in order to avoid risks of compromise."
+CTRL-0000001008,"Test accounts shall be strictly controlled, in order to avoid risks of compromise, or impact on Production systems."
+CTRL-0000001007,Export of Personal Data or Sensitive Personal Data shall only be permitted in accordance with applicable laws & regulations.
+CTRL-0000001006,"Unique user ID's shall be attested, securely created and assigned to individual Employees, Contractors, and Third Party Users."
+CTRL-0000001005,"Protective controls shall be applied to handle data in Development & Test environments, according to its classification."
+CTRL-0000001003,Personal Data and Sensitive Personal Data shall be collected in compliance with applicable data privacy laws.
+CTRL-0000001002,All System Assets shall have an asset owner identified.
+CTRL-0000001001,Personal Data and Sensitive Personal Data shall be processed in compliance with applicable data privacy laws.
+CTRL-0000001000,Personal Data and Sensitive Personal Data shall be managed & controlled in compliance with applicable data privacy laws.
